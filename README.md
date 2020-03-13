@@ -1,2 +1,2 @@
-# Estudo de Java
+# Curso Java
 "Portfólio" de todos os exercícios e conteúdos estudados
