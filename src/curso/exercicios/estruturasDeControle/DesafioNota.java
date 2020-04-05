@@ -2,7 +2,7 @@ package estruturasDeControle;
 
 import javax.swing.JOptionPane;
 
-public class DeasfioNota {
+public class DesafioNota {
 	
 	public static void main(String[] args) {
 		
@@ -14,8 +14,8 @@ public class DeasfioNota {
 			if(!texto.trim().equalsIgnoreCase("sair") && (10 >= Double.parseDouble(texto.trim().replace(",", ".")) && Double.parseDouble(texto.trim().replace(",", ".")) >= 0)){
 				somaNota += Double.parseDouble(texto.trim().replace(",", "."));
 				qtd++;
-			}else JOptionPane.showMessageDialog(null , "nota inválida");
+			}else JOptionPane.showMessageDialog(null , "nota invï¿½lida");
 		}
-		System.out.printf("A média dos alunos foi %.2f", somaNota/qtd);
+		System.out.printf("A mï¿½dia dos alunos foi %.2f", somaNota/qtd);
 	}
 }
