@@ -1,24 +1,32 @@
 package curso.exercicios.classes;
 
 
-public class Usuarios {
-    String nome;
+import java.util.Objects;
+
+public class Users {
+    String name;
     String email;
 
-    Usuarios(String nome, String email){
-        this.nome = nome;
+    Users(String name, String email){
+        this.name = name;
         this.email = email;
     }
 
-    public boolean equals(Object objeto) {
+    Users(String name){
+        this.name = name;
+    }
 
-        if(objeto instanceof Usuarios){
-            Usuarios outro = (Usuarios) objeto;
-            return outro.nome.equals(this.nome) && outro.email.equals(this.email);
-        }
-        else{
-            return false;
-        }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Users users = (Users) o;
+        return Objects.equals(name, users.name) &&
+                Objects.equals(email, users.email);
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, email);
     }
 }

@@ -1,7 +1,5 @@
 package curso.exercicios.collections;
 
-import curso.exercicios.classes.Usuarios;
-
 import java.util.ArrayList;
 
 public class List {
