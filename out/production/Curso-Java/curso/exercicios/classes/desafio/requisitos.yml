@@ -1,0 +1,22 @@
+---
+classes:
+  - Jantar:
+    - main:
+      instanciar:
+        - pessoa
+        - comida: 2
+  - Pessoa:
+      - var:
+          - peso
+          - nome
+      - metodo:
+          - comer:
+              - param:
+                  - comida:
+                  - peso:
+          - função:
+            - Comer adiciona o peso da comida ao peso da pessoa
+  - Comida:
+      - var:
+          - comida
+          - peso

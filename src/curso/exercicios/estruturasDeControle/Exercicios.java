@@ -1,4 +1,4 @@
-package estruturasDeControle;
+package curso.exercicios.estruturasDeControle;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -9,15 +9,15 @@ public class Exercicios {
 		boolean par = false;
 
 		if (num > 0 && num < 10) {
-			System.out.println(num + " está entra 0 e 10!");
+			System.out.println(num + " estï¿½ entra 0 e 10!");
 		} else {
-			System.out.println(num + " não está entre 0 e 10!");
+			System.out.println(num + " nï¿½o estï¿½ entre 0 e 10!");
 		}
 		if (num % 2 == 0) {
 			par = true;
-			System.out.println(num + " é par");
+			System.out.println(num + " ï¿½ par");
 		} else {
-			System.out.println(num + " não é par");
+			System.out.println(num + " nï¿½o ï¿½ par");
 		}
 
 		return par;
@@ -27,13 +27,13 @@ public class Exercicios {
 		boolean bisS = false;
 
 		if (ano % 400 == 0) {
-			System.out.println("O " + ano + " é bissexto");
+			System.out.println("O " + ano + " ï¿½ bissexto");
 			bisS = true;
 		} else if (ano % 4 == 0 && ano % 100 != 0) {
-			System.out.println("O " + ano + " é bissexto");
+			System.out.println("O " + ano + " ï¿½ bissexto");
 			bisS = true;
 		} else {
-			System.out.println("O " + ano + " não é bissexto");
+			System.out.println("O " + ano + " nï¿½o ï¿½ bissexto");
 		}
 
 		return bisS;
@@ -43,11 +43,11 @@ public class Exercicios {
 		double media = (nota1 + nota2) / 2;
 		String resultado = "";
 		if (media >= 7.0) {
-			resultado = "O aluno está aprovado";
+			resultado = "O aluno estï¿½ aprovado";
 		} else if (media >= 4 && media < 7) {
-			resultado = "O aluno está de recuperação";
+			resultado = "O aluno estï¿½ de recuperaï¿½ï¿½o";
 		} else {
-			resultado = "O aluno está reprovado";
+			resultado = "O aluno estï¿½ reprovado";
 		}
 
 		return resultado;
@@ -58,9 +58,9 @@ public class Exercicios {
 
 		if (num % 2 != 0) {
 			impar = true;
-			System.out.println(num + " é impar");
+			System.out.println(num + " ï¿½ impar");
 		} else {
-			System.out.println(num + " não é impar");
+			System.out.println(num + " nï¿½o ï¿½ impar");
 		}
 
 		return impar;
@@ -71,11 +71,11 @@ public class Exercicios {
 		int test = num % 2;
 		switch (test) {
 		case 0: {
-			System.out.println(num + " não é impar");
+			System.out.println(num + " nï¿½o ï¿½ impar");
 			break;
 		}
 		default:
-			System.out.println(num + " é impar");
+			System.out.println(num + " ï¿½ impar");
 			impar = true;
 		}
 
@@ -90,18 +90,18 @@ public class Exercicios {
 		Scanner entrada = new Scanner(System.in);
 		while (tentativas < 10) {
 			tentativas++;
-			System.out.println("Insira um número: ");
+			System.out.println("Insira um nï¿½mero: ");
 			num = entrada.nextInt();
 			if (num == numero) {
-				System.out.println("Parabéns você acertou!");
+				System.out.println("Parabï¿½ns vocï¿½ acertou!");
 				result = true;
 				break;
 			} else {
 				System.out.println("Voce ainda tem: " + (10 - tentativas) + " restantes!");
 				if (num > numero) {
-					System.out.println("O seu número é maior que o numero gerado");
+					System.out.println("O seu nï¿½mero ï¿½ maior que o numero gerado");
 				} else {
-					System.out.println("O seu número é menor que o numero gerado");
+					System.out.println("O seu nï¿½mero ï¿½ menor que o numero gerado");
 				}
 			}
 		}
@@ -114,12 +114,12 @@ public class Exercicios {
 		Scanner entrada = new Scanner(System.in);
 
 		while (num != -1) {
-			System.out.println("Insirida um número: ");
+			System.out.println("Insirida um nï¿½mero: ");
 			num = entrada.nextDouble();
 			if (num >= 0 && num != -1) {
 				soma += num;
 			} else if (num != -1) {
-				System.out.println("Número inválido!");
+				System.out.println("Nï¿½mero invï¿½lido!");
 			}
 
 		}
@@ -161,7 +161,7 @@ public class Exercicios {
 		// ex6();
 		// ex7();
 		// ex8("abcde");
-		// System.out.println("O maior valor é: " + ex9());
+		// System.out.println("O maior valor ï¿½: " + ex9());
 		
 		double x = 5.7;
 		System.out.println(Math.round(x));	

@@ -1,4 +1,4 @@
-package estruturasDeControle;
+package curso.exercicios.estruturasDeControle;
 
 public class SwitchSembrak {
 
@@ -16,7 +16,7 @@ public class SwitchSembrak {
 		case "verde":
 			System.out.println("Sei o Heian Yodan...");
 		default:
-			System.out.println("Não sei nada");
+			System.out.println("Nï¿½o sei nada");
 		}
 	}
 }
