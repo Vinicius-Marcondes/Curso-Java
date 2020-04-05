@@ -5,8 +5,8 @@ Compêndio de todos os exercícios e conteúdos estudados.
 * [Estruturas de Controle](#estruturas-de-controle)
 * [Classes e Métodos](#classes-e-mtodos)
 
-<h2>Conteúdos estudados</h2>
-#####Fundamentos
+## Conteúdos estudados
+### Fundamentos
 * Tipos
 * Objeto vs Primitivo
 * Wrappers
@@ -15,7 +15,7 @@ Compêndio de todos os exercícios e conteúdos estudados.
 * Conceitos        
   * JDK vs JVM
   * Java vs Javac
-#####Estruturas de Controle
+### Estruturas de Controle
 * if/else
 * While
 * For/Foreach
@@ -24,7 +24,7 @@ Compêndio de todos os exercícios e conteúdos estudados.
 * Switch
 * Break/Continue
 
-#####Classes e Métodos
+### Classes e Métodos
 * Classe vs Objeto
 * Conceito de Classe
 * Métodos
@@ -36,15 +36,15 @@ Compêndio de todos os exercícios e conteúdos estudados.
 * Valores padrão
 * Valor null
 
-#####Arrays e Collections
+### Arrays e Collections
 * Array
   * Definição
   * Métodos e Atributos
   * Implementação
    
-###Contato
+### Contato
 * Twitter - [@ViniciusMarc_](https://twitter.com/ViniciusMarc_)
 * Linkedin - [Vinícius Vieira](https://www.linkedin.com/in/vinícius-vieira-0712251a3)
 
-###Cursos e materiais usados para o estudo
+### Cursos e materiais usados para o estudo
 * Java 13 COMPLETO: Do Zero ao Profissional (Cod3r/Udemy)
