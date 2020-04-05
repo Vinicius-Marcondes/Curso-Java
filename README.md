@@ -43,6 +43,15 @@ Compêndio de todos os exercícios e conteúdos estudados.
   * Métodos e Atributos
   * Implementação
   * Matriz
+* Collections
+  * Conceito
+  * Equals e Hash
+  * Map
+  * Set
+  * List
+  * Queue
+  * Stack
+  * Map
 
 #
 
