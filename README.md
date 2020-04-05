@@ -42,6 +42,7 @@ Compêndio de todos os exercícios e conteúdos estudados.
   * Definição
   * Métodos e Atributos
   * Implementação
+  * Matriz
 
 #
 
