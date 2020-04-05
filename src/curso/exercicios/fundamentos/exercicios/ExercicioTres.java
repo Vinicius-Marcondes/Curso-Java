@@ -1,4 +1,4 @@
-package fundamentos.exercicios;
+package curso.exercicios.fundamentos.exercicios;
 
 import javax.swing.JOptionPane;
 
@@ -10,6 +10,6 @@ public class ExercicioTres {
 		Double altura = Double.parseDouble(JOptionPane.showInputDialog("Insrada a altura (m)").replace(",", "."));
 		Double IMC = peso/Math.pow(altura, 2);
 
-		System.out.println("O IMC do usuário é: " + IMC);		
+		System.out.println("O IMC do usuï¿½rio ï¿½: " + IMC);		
 	}
 }

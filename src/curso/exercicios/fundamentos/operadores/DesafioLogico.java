@@ -1,15 +1,15 @@
-package fundamentos.operadores;
+package curso.exercicios.fundamentos.operadores;
 
 public class DesafioLogico {
 	
 	public static void main(String[] args) {
-		// Trabalho na terça (V ou F)
+		// Trabalho na terï¿½a (V ou F)
 		// Trabalho na quinta (V ou F)
 		boolean sorvete, trab1 = false, trab2 = false;
 			
 		if((trab1 || trab2) == false) {
 			sorvete = false;
-			System.out.println("Não comprou nenhuma TV!");
+			System.out.println("Nï¿½o comprou nenhuma TV!");
 		}
 		else if((trab1 && trab2) == true) {
 			sorvete = true;
@@ -20,10 +20,10 @@ public class DesafioLogico {
 			System.out.printf("Comprou a TV de 35'' ");
 		}
 		if(sorvete == false) {
-			System.out.printf("\nA família não engordou!");
+			System.out.printf("\nA famï¿½lia nï¿½o engordou!");
 		}
 		else {
-		System.out.printf("\nA família engordou!");
+		System.out.printf("\nA famï¿½lia engordou!");
 		}
 	}
 }

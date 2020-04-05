@@ -1,4 +1,4 @@
-package estruturasDeControle;
+package curso.exercicios.estruturasDeControle;
 
 import javax.swing.JOptionPane;
 
@@ -14,7 +14,7 @@ public class DesafioDiaDaSemana {
 		else if(diaSemana.trim().equalsIgnoreCase("segunda")) {
 			System.out.println("Dia 2");
 		}
-		else if(diaSemana.trim().equalsIgnoreCase("terça") || diaSemana.trim().equalsIgnoreCase("terca")) {
+		else if(diaSemana.trim().equalsIgnoreCase("terï¿½a") || diaSemana.trim().equalsIgnoreCase("terca")) {
 			System.out.println("Dia 3");
 		}
 		else if(diaSemana.trim().equalsIgnoreCase("quarta")) {
@@ -26,11 +26,11 @@ public class DesafioDiaDaSemana {
 		else if(diaSemana.trim().equalsIgnoreCase("sexta")) {
 			System.out.println("Dia 6");
 		}
-		else if(diaSemana.trim().equalsIgnoreCase("sábado") || diaSemana.trim().equalsIgnoreCase("sábado")){
+		else if(diaSemana.trim().equalsIgnoreCase("sï¿½bado") || diaSemana.trim().equalsIgnoreCase("sï¿½bado")){
 			System.out.println("Dia 7");			
 		}
 		else {
-			System.out.println("Dia inválido!");
+			System.out.println("Dia invï¿½lido!");
 		}
 	}
 }

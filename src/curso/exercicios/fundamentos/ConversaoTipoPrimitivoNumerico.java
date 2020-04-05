@@ -1,13 +1,13 @@
-package fundamentos;
+package curso.exercicios.fundamentos;
 
 public class ConversaoTipoPrimitivoNumerico {
 
 	public static void main(String[] args) {
 		
-		double a =1;// implícita
+		double a =1;// implï¿½cita
 		System.out.println(a);
 		
-		float b = (float) 1.12345678; // explícita (CAST)
+		float b = (float) 1.12345678; // explï¿½cita (CAST)
 		System.out.println(b);
 		
 		int c = 128;

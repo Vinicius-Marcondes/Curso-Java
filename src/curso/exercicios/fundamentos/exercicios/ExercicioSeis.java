@@ -1,5 +1,4 @@
-package fundamentos.exercicios;
-
+package curso.exercicios.fundamentos.exercicios;
 import javax.swing.JOptionPane;
 
 public class ExercicioSeis {

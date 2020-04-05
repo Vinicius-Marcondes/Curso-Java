@@ -1,4 +1,4 @@
-package fundamentos.exercicios;
+package curso.exercicios.fundamentos.exercicios;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class ExercicioDois {
 		fhr = entrada.nextDouble();
 		
 		celsius = (fhr-32)*5/9;
-		System.out.println("A temperadatura em Celsius é: " + celsius);
+		System.out.println("A temperadatura em Celsius ï¿½: " + celsius);
 		
 		entrada.close();
 	}

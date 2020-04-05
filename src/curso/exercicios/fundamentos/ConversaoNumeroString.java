@@ -1,4 +1,4 @@
-package fundamentos;
+package curso.exercicios.fundamentos;
 
 public class ConversaoNumeroString {
 

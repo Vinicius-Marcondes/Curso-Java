@@ -1,4 +1,4 @@
-package fundamentos.operadores;
+package curso.exercicios.fundamentos.operadores;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class DesafioCalculadora {
 		num1 = entrada.nextDouble();
 		System.out.print("\nInsira o segundo numero: ");
 		num2 = entrada.nextDouble();
-		System.out.print("\nInsira a operação a ser realizada: ");
+		System.out.print("\nInsira a operaï¿½ï¿½o a ser realizada: ");
 		String operacao = entrada.next();
 		
 		resultado = "+".equals(operacao) ? (num1 + num2) : 0;

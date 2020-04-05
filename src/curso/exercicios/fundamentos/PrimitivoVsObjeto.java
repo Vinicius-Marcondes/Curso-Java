@@ -1,4 +1,4 @@
-package fundamentos;
+package curso.exercicios.fundamentos;
 
 public class PrimitivoVsObjeto {
 	
@@ -7,7 +7,7 @@ public class PrimitivoVsObjeto {
 		String s = new String("texto");
 		s.toUpperCase();
 		
-		//Wrappers são a versão objetos dos tipos primitivos
+		//Wrappers sï¿½o a versï¿½o objetos dos tipos primitivos
 		int a = 123;
 		System.out.println(a);
 	}

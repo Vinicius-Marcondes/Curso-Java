@@ -1,4 +1,4 @@
-package fundamentos.operadores;
+package curso.exercicios.fundamentos.operadores;
 
 public class DesafioAritmetico {
 

@@ -1,4 +1,4 @@
-package fundamentos;
+package curso.exercicios.fundamentos;
 
 public class temperatura {
 	public static void main(String[] args) {

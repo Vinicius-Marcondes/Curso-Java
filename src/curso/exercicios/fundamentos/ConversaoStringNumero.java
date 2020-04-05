@@ -1,4 +1,4 @@
-package fundamentos;
+package curso.exercicios.fundamentos;
 
 import javax.swing.JOptionPane;
 
@@ -6,9 +6,9 @@ public class ConversaoStringNumero {
 
 	public static void main(String[] args) {
 		
-		String valor1 = JOptionPane.showInputDialog("Digite o primeiro número");
+		String valor1 = JOptionPane.showInputDialog("Digite o primeiro nï¿½mero");
 		
-		String valor2 = JOptionPane.showInputDialog("Digite o primeiro número");
+		String valor2 = JOptionPane.showInputDialog("Digite o primeiro nï¿½mero");
 		
 		System.out.println(valor1 + " " + valor2);
 		
@@ -16,6 +16,6 @@ public class ConversaoStringNumero {
 		double numero2 = Double.parseDouble(valor2);
 		
 		double soma = numero1 + numero2;
-		System.out.println("Soma: " + soma + "\n Média: " + soma/2);
+		System.out.println("Soma: " + soma + "\n Mï¿½dia: " + soma/2);
 	}
 }
