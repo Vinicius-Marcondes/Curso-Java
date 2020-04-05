@@ -14,7 +14,7 @@ public class Desafio {
         double[] notas = new double[qtdNotas];
 
         for (int i = 0; i < qtdNotas; i++) {
-            System.out.print("Insira a nota: " + (i+1));
+            System.out.print("Insira a nota " + (i+1) + ": ");
             notas[i] = entrada.nextDouble();
         }
 
