@@ -3,7 +3,7 @@ Compêndio de todos os exercícios e conteúdos estudados.
 
 * [Fundamentos](#fundamentos)
 * [Estruturas de Controle](#estruturas-de-controle)
-* [Classes e Métodos](#classes-e-mtodos)
+* [Classes e Métodos](#classes-e-métodos)
 
 ## Conteúdos estudados
 ### Fundamentos
