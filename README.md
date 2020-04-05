@@ -4,6 +4,7 @@ Compêndio de todos os exercícios e conteúdos estudados.
 * [Fundamentos](#fundamentos)
 * [Estruturas de Controle](#estruturas-de-controle)
 * [Classes e Métodos](#classes-e-métodos)
+* [Arrays e Collection](#arrays-e-collections)
 
 ## Conteúdos estudados
 ### Fundamentos
@@ -41,7 +42,9 @@ Compêndio de todos os exercícios e conteúdos estudados.
   * Definição
   * Métodos e Atributos
   * Implementação
-   
+
+#
+
 ### Contato
 * Twitter - [@ViniciusMarc_](https://twitter.com/ViniciusMarc_)
 * Linkedin - [Vinícius Vieira](https://www.linkedin.com/in/vinícius-vieira-0712251a3)
