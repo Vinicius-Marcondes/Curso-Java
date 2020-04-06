@@ -53,6 +53,14 @@ Compêndio de todos os exercícios e conteúdos estudados.
   * Stack
   * Map
 
+### Orientação a Objeto
+* Conceitos
+* Relacionamento
+  * Um para um
+  * Bidirecional
+  * Muitos para um
+  * Muitos para muitos
+
 #
 
 ### Contato
