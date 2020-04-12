@@ -11,6 +11,10 @@ public class Course {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return name;
+    }
 
     void addStudent(Student student){
         this.student.add(student);

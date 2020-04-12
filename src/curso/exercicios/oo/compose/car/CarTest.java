@@ -1,7 +1,5 @@
 package curso.exercicios.oo.compose.car;
 
-import curso.exercicios.oo.compose.car.Car;
-
 public class CarTest {
     public static void main(String[] args) {
 
