@@ -4,14 +4,18 @@ import java.util.ArrayList;
 
 public class Client {
     private final String name;
-    public final ArrayList<Buy> buyingList = new ArrayList<>();
+    private final ArrayList<Buy> buyingList = new ArrayList<>();
 
     public Client(String name) {
         this.name = name;
     }
 
-    final String name(){
+    final String getName(){
         return name;
+    }
+
+    public void addBuy(Buy buy){
+        buyingList.add(buy);
     }
 
     public double totalSpent(){

@@ -3,10 +3,14 @@ package curso.exercicios.oo.compose.challenge;
 import java.util.ArrayList;
 
 public class Buy {
-    public ArrayList<Item> items;
+    private ArrayList<Item> items = new ArrayList<>();
 
-    Buy(ArrayList<Item> items){
-        this.items = items;
+//    Buy(ArrayList<Item> items){
+//        this.items = items;
+//    }
+
+    public void addItem(Item item){
+        items.add(item);
     }
 
     public double value(){
