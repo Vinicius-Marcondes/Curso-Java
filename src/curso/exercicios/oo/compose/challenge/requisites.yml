@@ -1,0 +1,18 @@
+# Document made to organize the requirements of the challenge
+---
+Challenge:
+  Client:
+    - name
+    - buyingList
+    method:
+      - totalSpent()
+  Buy:
+    - listOfItems
+    method:
+      - value()
+  Item:
+    - Product
+    - quantity
+  Product:
+    - name
+    - price

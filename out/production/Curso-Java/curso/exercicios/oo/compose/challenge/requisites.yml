@@ -1,0 +1,16 @@
+Challenge:
+  Client:
+    - name
+    - buyingList
+    method:
+      - totalSpent()
+  Buy:
+    - listOfItems
+    method:
+      - value()
+  Item:
+    - Product
+    - quantity
+  Product:
+    - name
+    - price
