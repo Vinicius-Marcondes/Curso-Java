@@ -5,6 +5,7 @@ Compêndio de todos os exercícios e conteúdos estudados.
 * [Estruturas de Controle](#estruturas-de-controle)
 * [Classes e Métodos](#classes-e-métodos)
 * [Arrays e Collection](#arrays-e-collections)
+* [Orientação a Objeto](#orientao-a-objeto)
 
 ## Conteúdos estudados
 ### Fundamentos
@@ -60,6 +61,7 @@ Compêndio de todos os exercícios e conteúdos estudados.
   * Bidirecional
   * Muitos para um
   * Muitos para muitos
+  * Herança
 
 #
 
