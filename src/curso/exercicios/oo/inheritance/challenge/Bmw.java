@@ -3,6 +3,9 @@ package curso.exercicios.oo.inheritance.challenge;
 public class Bmw extends Car{
     String nationality = "German";
 
+    Bmw(int MAX_VEL){
+        super(MAX_VEL);
+    }
     @Override
     void accelerate(){
         if(!engine){
