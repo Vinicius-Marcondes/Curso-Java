@@ -1,7 +1,7 @@
 package curso.exercicios.oo.inheritance.firstExample;
 
 public class Player {
-    final int[] position = new int[2];
+    private final int[] position = new int[2];
     private int life = 100;
 
     Player(){}
@@ -11,17 +11,17 @@ public class Player {
         position[1] = y;
     }
 
-    int getLife(){return life;}
+    public int getLife(){return life;}
 
-    int[] getPosition(){
+    public int[] getPosition(){
         return position;
     }
 
-    void changeLife(int hitPoints){
+    public void changeLife(int hitPoints){
         life += hitPoints;
     }
 
-    void walk(Direction direction){
+    public void walk(Direction direction){
         switch (direction) {
             case NORTH:
                 position[1]++;
@@ -38,7 +38,7 @@ public class Player {
         }
     }
 
-    boolean attack(Player opponent){
+    protected boolean attack(Player opponent){
         int deltaX = Math.abs(position[0] - opponent.getPosition()[0]);
         int deltaY = Math.abs(position[1] - opponent.getPosition()[1]);
 

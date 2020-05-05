@@ -1,12 +1,16 @@
-package curso.exercicios.oo.inheritance.firstExample;
+package curso.exercicios.oo.inheritance.challenge2;
+
+import curso.exercicios.oo.inheritance.firstExample.Direction;
+import curso.exercicios.oo.inheritance.firstExample.Hero;
+import curso.exercicios.oo.inheritance.firstExample.Monster;
 
 import java.util.Arrays;
 
 public class Test {
     public static void main(String[] args) {
 
-        Player hero = new Hero(10,10);
-        Player monster = new Monster(15,15);
+        Hero hero = new Hero(10,10);
+        Monster monster = new Monster(15,15);
 
         for(int i =0; i < 5; i++){
             hero.walk(Direction.NORTH);

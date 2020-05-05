@@ -3,11 +3,11 @@ package curso.exercicios.oo.inheritance.challenge;
 public class Bmw extends Car{
     String nationality = "German";
 
-    Bmw(int MAX_VEL){
+    public Bmw(int MAX_VEL){
         super(MAX_VEL);
     }
     @Override
-    void accelerate(){
+    public void accelerate(){
         if(!engine){
             System.out.println("The car is off, please turn on to start moving!");
         }
@@ -17,7 +17,7 @@ public class Bmw extends Car{
     }
 
     @Override
-    void brake() {
+    public void brake() {
         super.velocity -= 11;
     }
 }

@@ -1,10 +1,12 @@
-package curso.exercicios.oo.inheritance.challenge;
+package curso.exercicios.oo.inheritance.challenge2;
 
-public class Test {
+import curso.exercicios.oo.inheritance.challenge.*;
+
+public class Test2 {
     public static void main(String[] args) {
-        Car x1 = new Bmw();
-        Car enzo = new Ferrari();
-        Car popular = new Car();
+        Bmw x1 = new Bmw(20);
+        Ferrari enzo = new Ferrari(20);
+        Car popular = new Car(20);
 
         System.out.println("---- Popular ----");
         popular.accelerate();
