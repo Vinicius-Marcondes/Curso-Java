@@ -10,15 +10,17 @@ public class Test2 {
 
         System.out.println("---- Popular ----");
         popular.accelerate();
+        popular.accelerate();
+        popular.accelerate();
         popular.turnOn(true);
-        popular.accelerate();
-        popular.accelerate();
 
         System.out.println("---- Ferrari ----");
         enzo.accelerate();
         enzo.turnOn(true);
+        System.out.println(enzo.AcLevel());
         enzo.accelerate();
         enzo.accelerate();
+
 
         System.out.println("------ BMW ------");
         x1.turnOn(true);
