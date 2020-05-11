@@ -1,20 +1,8 @@
 package curso.exercicios.oo.polymorphism;
 
-public class Bean {
-
-    private double weight;
+public class Bean extends Food {
 
     public Bean(double weight){
-        setWeight(weight);
-    }
-
-    public double getWeight(){
-        return weight;
-    }
-
-    public void setWeight(double weight) {
-        if (weight >= 0) {
-            this.weight = weight;
-        }
+        super(weight);
     }
 }

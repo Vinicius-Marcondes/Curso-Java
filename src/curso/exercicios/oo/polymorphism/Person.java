@@ -18,15 +18,7 @@ public class Person {
         }
     }
 
-    public void eatRice(Rice rice){
-        this.weight += rice.getWeight();
-    }
-
-    public void eatBean(Bean bean){
-        this.weight += bean.getWeight();
-    }
-
-    public void eatIce(IceCream iceCream){
-        this.weight += iceCream.getWeight();
+    public void eatFood(Food food){
+        this.weight += food.getWeight();
     }
 }

@@ -12,12 +12,12 @@ public class Dinner {
 
         System.out.println(guest.getWeight());
 
-        guest.eatRice(food1);
-        guest.eatBean(food2);
+        guest.eatFood(food1);
+        guest.eatFood(food2);
 
         System.out.println(guest.getWeight());
 
-        guest.eatIce(food3);
+        guest.eatFood(food3);
 
         System.out.println(guest.getWeight());
     }
