@@ -17,6 +17,8 @@ Compêndio de todos os exercícios e conteúdos estudados.
 * Conceitos        
   * JDK vs JVM
   * Java vs Javac
+* Enum
+* Interface
 ### Estruturas de Controle
 * if/else
 * While
@@ -62,6 +64,8 @@ Compêndio de todos os exercícios e conteúdos estudados.
   * Muitos para um
   * Muitos para muitos
   * Herança
+  * Polimorfismo
+  
 
 #
 
