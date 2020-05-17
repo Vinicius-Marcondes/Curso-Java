@@ -14,12 +14,20 @@ public class Foreach {
         }
 
         System.out.println("----- Now using lambda function #01 -----");
-
         graduates.forEach((name -> System.out.println(name)));
 
         System.out.println("----- Using Method Reference -----");
-
         graduates.forEach(System.out::println);
 
+        System.out.println("----- Now using lambda function #02 -----");
+        graduates.forEach(name -> customPrint(name));
+
+        System.out.println("----- Using Method Reference #02 -----");
+        graduates.forEach(Foreach::customPrint);
+
+    }
+
+    static void customPrint(String name){
+        System.out.println("My name is " + name);
     }
 }

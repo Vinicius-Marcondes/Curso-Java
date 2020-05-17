@@ -1,3 +1,5 @@
-/.idea
-/Exercises/out
+.idea/
+Exercises/out
+Exercises/.scannerwork/
+Exercises/sonar-project.properties
 Curso-Java.iml
