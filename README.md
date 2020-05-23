@@ -83,3 +83,4 @@ Compêndio de todos os exercícios e conteúdos estudados.
 ### Cursos e materiais usados para o estudo
 * Java 13 COMPLETO: Do Zero ao Profissional (Cod3r/Udemy)
 * Use a Cabeça!: Java - 2ª edição
+* Hyperskill - Jetbrains
