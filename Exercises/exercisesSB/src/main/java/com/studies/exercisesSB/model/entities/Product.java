@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
 
 @Entity
 public class Product {
@@ -13,11 +14,15 @@ public class Product {
     private int id;
 
     private String name;
+    private float price;
+    private float discount;
 
     public Product(){}
 
-    public Product(String name) {
+    public Product(String name, float price, float discount) {
         this.name = name;
+        this. price = price;
+        this.discount = discount;
     }
 
     public int getId() {
@@ -34,5 +39,21 @@ public class Product {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public float getPrice() {
+        return price;
+    }
+
+    public void setPrice(float price) {
+        this.price = price;
+    }
+
+    public float getDiscount() {
+        return discount;
+    }
+
+    public void setDiscount(float discount) {
+        this.discount = discount;
     }
 }
