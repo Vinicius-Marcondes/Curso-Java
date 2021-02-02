@@ -2,7 +2,7 @@ package exercises.fundamentos;
 
 public class TipoString {
 	public static void main(String[] args) {
-		System.out.println("Ol� pessoal".charAt(2));
+		System.out.println("Olá pessoal".charAt(2));
 		
 		String s = "Boa Tarde";
 		System.out.println(s.concat("!!!"));
@@ -12,10 +12,10 @@ public class TipoString {
 		System.out.println(s.toLowerCase().equals("boa tarde"));
 		System.out.println(s.equalsIgnoreCase("boa tarde"));
 		
-		var nome = "Pedro";
-		var sobrenome ="Santos";
-		var idade = 33;
-		var salario = 12345.987F;
+		String nome = "Pedro";
+		String sobrenome ="Santos";
+		int idade = 33;
+		float salario = 12345.987F;
 		
 		String maisUmaFrase = "Nome: " + nome + "\nSobrenome: " 
 				+ sobrenome + "\nIdade: " + idade + 
